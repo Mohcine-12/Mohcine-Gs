@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MON PORTFOLIA</title>
+    <!--css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <!--css-->
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!--Font-->
+</head>
+  <!--head-->
+
+
+  <!--body-->
+  <body>
+      <!--header-->
+     <div class="block">
+        <header class="header">
+<a herf="a" class="header-logo">Mon portfolio</a>
+<nav class="header-menu">
+    <a href="a">accueil</a>
+    <a href="a">A propos</a>
+    <a href="a">Mes travaux</a>
+    <a href="a">contact</a>
+</nav>
+        </header>
+     </div>
+     <!--header-->
+
+     <!--banner-->
+ <div class="block">
+    <div class="banner"> 
+              <img src="src/img/gl.jpg.jpg"alt="un ordinateur avec du code" class="banner-image">
+       <div class="banner-content">
+                 <h1 class="title is-1">bienvenu chez "Glasses"</h1>
+                  <h2 class="subtitle">Découvrez mes travaux et mon unnivers !</h2>
+                  <button class="button is-link" id="button">Cantatez-moi !</button>
+       </div>
+    </div>
+</div>  
+       <!--banner-->
+      <!--modal-->
+<div id="primary" class="content-area container">
+   <main id="main" class="site-main section">
+    
+     <div class="modal" id="page-modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <!-- Any other Bulma elements you want -->
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+   </main>
+</div>
+       <!--modal-->
+       <!--section: à propos -->
+<div class="block">
+      <h2 class="subtitle heading-site">A propos</h2>
+    <div class="container about">
+            <div class="columns">
+              <div class="column about-single-element">
+                <i class="fas fa-code icon"></i>
+                <p>
+                  Les verres des lunettes de soleil sont teintés pour diminuer la luminosité. Cela a pour effet d'agrandir la pupille et différents filtres doivent être inclus pour atténuer non seulement la lumière visible, mais surtout ultraviolette qui menacerait les yeux de leur porteur.
+                </p>
+              </div>
+              <div class="column about-single-element">
+                <i class="fas fa-glasses"></i>
+                <p>
+                  Les verres des lunettes de soleil sont teintés pour diminuer la luminosité. Cela a pour effet d'agrandir la pupille et différents filtres doivent être inclus pour atténuer non seulement la lumière visible, mais surtout ultraviolette qui menacerait les yeux de leur porteur.
+                </p>
+              </div>
+              <div class="column about-single-element">
+                <i class="fas fa-pencil-alt icon"></i>
+                <p>
+                  Les verres des lunettes de soleil sont teintés pour diminuer la luminosité. Cela a pour effet d'agrandir la pupille et différents filtres doivent être inclus pour atténuer non seulement la lumière visible, mais surtout ultraviolette qui menacerait les yeux de leur porteur.
+                </p>
+              </div>
+            </div>
+        </div>
+</div>
+     <!-- section à propos -->
+
+     <!--portfolio-->
+       <div class="block">
+        <h2 class="subtitle heading-site">"GLASSES"</h2>
+         <div class="container">
+          <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child">
+                   <div class="notification">sun glasses </div>
+                  </article>
+                  <article class="tile is-child">
+                    <img src="src/img/glss.jpg.jpg" alt="la description de la photo">
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child">
+                    <div class="notification is-primary">
+                      <img src="src/img/by.jpg.jpg" alt="la description de la photo">
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child">
+                  <img src="src/img/by.jpg.jpg" alt="la description de la photo">
+                </article>
+              </div>
+            </div>
+            <div class="tille">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child">
+                <div class="notification is-warning"> le contenu </div>
+              </article>
+              <article class="tile is-child">
+                <img src="src/img/gl.jpg.jpg" alt="la description de la photo">
+              </article>
+            </div>
+      </div>
+ </div>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/Vo3mSzC_UqI" frameborder="0" allowfullscreen></iframe>
+     <!--portfolio-->
+     <!--contact-->
+<div class="block">
+  <footer class="footer">
+    <h2 class="heading-site">contactez-moi</h2>
+     <div class="footer-contact-form">
+<form>
+  <div class="field">
+      <label class="label">votre nom</label>
+      <div class="control">
+      <input class="input" type="text" placeholder="e.g Alex Smith">
+       </div>
+  </div>
+  <div class="field">
+      <label class="label">prénom</label>
+     <div class="control">
+        <input class="input" type="text" placeholder="e.g Alex Smith">
+  </div>
+  <div class="field">
+      <label class="label">votre email</label>
+       <div class="control">
+       <input class="input" type="text" placeholder="e.g Alex Smith">
+  </div>
+  <div class="field">
+    <label class="label">votre message</label>
+      <div class="control">
+        <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+  </div>
+</div>
+</form>
+    </div>
+    <div class="footer-informations">
+<p> 148 Rue  developpeur web</p>
+<p> 88787 Maroc </p>
+<ul>
+  <li>
+    <a href="#">
+      <i class="fab fa-facebook-square"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+  </footer>
+</div>
+     <!--contact-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script scr="scr/js/main.js"></script>
+</body>
+</html>
